@@ -1,2 +1,2 @@
 # Diskhub
-For now a simple frisbeegolf calculator.
+A frisbeegolf app with a map for courses.

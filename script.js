@@ -16,6 +16,19 @@ var apu="";
 var reiat=0;
 var rata=0;
 
+fetch('https://b351-80-222-48-217.eu.ngrok.io/api/courses')
+  .then(response => response.json())
+  .then(data => {
+    // do something with the data, e.g. display it on the page
+    console.log(data);
+  })
+  .catch(error => {
+    // handle the error
+    console.error(error);
+  });
+
+
+
 var map = new ol.Map({
   target: 'map',
   view: new ol.View({
